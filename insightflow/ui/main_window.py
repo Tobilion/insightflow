@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QMainWindow, QStackedWidget, QVBoxLayout, QWidget, QPushButton, QLabel, QLineEdit, QTextEdit
-from services.api_client import APIClient
-from services.processor import DataProcessor
+from insightflow.services.api_client import APIClient
+from insightflow.services.processor import DataProcessor
 
 class MainWindow(QMainWindow):
     def __init__(self):
